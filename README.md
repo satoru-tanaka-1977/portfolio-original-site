@@ -14,3 +14,5 @@ Web制作を学びながら制作しているオリジナルサイトです。
 - Aboutページ
 - Blogページ
 - Contactページ
+
+- https://satoru-tanaka-1977.github.io/portfolio-original-site/
