@@ -34,11 +34,57 @@ ul {
 
 .header {
   padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-list {
   display: flex;
   gap: 20px;
+}
+
+/* ヒーロー */
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 80px 0;
+}
+
+.hero-text {
+  width: 50%;
+}
+
+.hero-text {
+  width: 50%;
+}
+
+/* ブログ */
+
+.blog-list {
+  display: flex;
+  gap: 4%;
+}
+
+.blog-card {
+  width: 48%;
+  background-color: #e88989;
+}
+
+.blog-card img {
+    width: 100%;
+}
+
+.blog-card h3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.blog-card p {
+    font-size: 0.875rem;
+    color: #666;
 }
 
 /* フッター */
