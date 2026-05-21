@@ -41,6 +41,8 @@ h2 {
   padding: 20px 0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
 }
 
 .nav-list {
@@ -61,7 +63,15 @@ h2 {
   width: 50%;
 }
 
+.hero-image {
+    width: 50%;
+}
+
 /* ブログ */
+
+.blog {
+    padding: 80px 0;
+}
 
 .blog-list {
   display: flex;
@@ -73,6 +83,11 @@ h2 {
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+}
+
+.blog-card a {
+    display: block;
+    padding: 12px;
 }
 
 .blog-card:hover {
@@ -121,8 +136,6 @@ h2 {
 
 /* コンタクト */
 
-/* コンタクト */
-
 .contact {
     padding: 80px 0;
 }
@@ -151,6 +164,8 @@ h2 {
 }
 
 button {
+  display: block;
+    margin: 0 auto;
     background-color: #333;
     color: #fff;
     padding: 10px 40px;
@@ -167,4 +182,57 @@ button:hover {
 .footer {
   padding: 20px 0;
   text-align: center;
+}
+
+/* レスポンシブ */
+
+@media screen and (max-width: 768px) {
+
+  /* ヘッダー */
+
+.header {
+  flex-direction: column;
+}  
+
+/* ヒーロー */
+
+.hero {
+  flex-direction: column;
+  padding: 40px 0;
+}
+
+.hero-text {
+  width: 100%;
+  text-align: center;
+}
+
+
+.hero-image {
+  width: 100%;
+}
+
+/* ブログ */
+
+.blog {
+    padding: 40px 0;
+}
+
+.blog-list {
+  flex-direction: column;
+  gap: 20px;
+}
+
+.blog-card {
+  width: 100%;
+}
+
+/* コンタクト */
+
+.contact {
+    padding: 40px 0;
+}
+
+button {
+  text-align: center;
+}
 }
