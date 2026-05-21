@@ -31,9 +31,9 @@ ul {
 }
 
 .wrapper-min {
-    width: 90%;
-    max-width: 800px;
-    margin: 0 auto;
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 /* 共通コンポーネント */
@@ -122,8 +122,16 @@ h2 {
   padding: 80px 0;
 }
 
-.about p {
-  margin-bottom: 20px;
+.about-profile {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.about-profile img {
+  width: 150px;
+  border-radius: 50%;
 }
 
 .skill-list {
@@ -231,6 +239,17 @@ button:hover {
 
   .blog-card {
     width: 100%;
+  }
+
+  /* アバウト */
+
+  .about {
+    padding: 40px 0;
+  }
+
+  .about-profile {
+    flex-direction: column;
+    text-align: center;
   }
 
   /* コンタクト */
