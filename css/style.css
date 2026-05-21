@@ -30,9 +30,15 @@ ul {
   margin: 0 auto;
 }
 
+.wrapper-min {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 /* 共通コンポーネント */
 h2 {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 /* ヘッダー */
@@ -64,13 +70,13 @@ h2 {
 }
 
 .hero-image {
-    width: 50%;
+  width: 50%;
 }
 
 /* ブログ */
 
 .blog {
-    padding: 80px 0;
+  padding: 80px 0;
 }
 
 .blog-list {
@@ -86,13 +92,13 @@ h2 {
 }
 
 .blog-card a {
-    display: block;
-    padding: 12px;
+  display: block;
+  padding: 12px;
 }
 
 .blog-card:hover {
-    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
-    transition: all 0.3s;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s;
 }
 
 .blog-card img {
@@ -113,70 +119,71 @@ h2 {
 /* アバウト */
 
 .about {
-    padding: 80px 0;
+  padding: 80px 0;
 }
 
 .about p {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .skill-list {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
 .skill-list li {
-    background-color: #333;
-    color: #fff;
-    padding: 4px 12px;
-    border-radius: 4px;
-    font-size: 0.875rem;
+  background-color: #333;
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 0.875rem;
 }
 
 /* コンタクト */
 
 .contact {
-    padding: 80px 0;
+  padding: 80px 0;
 }
 
 .contact-form {
-    max-width: 600px;
+  max-width: 600px;
 }
 
 .form-group {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .form-group label {
-    display: block;
-    margin-bottom: 6px;
-    font-weight: bold;
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
 }
 
 .form-group input,
 .form-group textarea {
-    width: 100%;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 10px;
-    font-size: 1rem;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 1rem;
 }
 
 button {
   display: block;
-    margin: 0 auto;
-    background-color: #333;
-    color: #fff;
-    padding: 10px 40px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+  margin: 0 auto;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 button:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
+
 /* フッター */
 
 .footer {
@@ -190,49 +197,49 @@ button:hover {
 
   /* ヘッダー */
 
-.header {
-  flex-direction: column;
-}  
+  .header {
+    flex-direction: column;
+  }
 
-/* ヒーロー */
+  /* ヒーロー */
 
-.hero {
-  flex-direction: column;
-  padding: 40px 0;
-}
-
-.hero-text {
-  width: 100%;
-  text-align: center;
-}
-
-
-.hero-image {
-  width: 100%;
-}
-
-/* ブログ */
-
-.blog {
+  .hero {
+    flex-direction: column;
     padding: 40px 0;
-}
+  }
 
-.blog-list {
-  flex-direction: column;
-  gap: 20px;
-}
+  .hero-text {
+    width: 100%;
+    text-align: center;
+  }
 
-.blog-card {
-  width: 100%;
-}
 
-/* コンタクト */
+  .hero-image {
+    width: 100%;
+  }
 
-.contact {
+  /* ブログ */
+
+  .blog {
     padding: 40px 0;
-}
+  }
 
-button {
-  text-align: center;
-}
+  .blog-list {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .blog-card {
+    width: 100%;
+  }
+
+  /* コンタクト */
+
+  .contact {
+    padding: 40px 0;
+  }
+
+  button {
+    text-align: center;
+  }
 }
