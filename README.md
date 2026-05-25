@@ -1,18 +1,44 @@
-# Web制作学習ブログ
+# Web制作学習ブログ（オリジナルサイト）
 
-Web制作を学びながら制作しているオリジナルサイトです。
+ポートフォリオ掲載用のオリジナルWebサイトです。
+模写ではなく、1からレイアウトとデザインを自分で考えて制作しました。
+
+---
 
 ## 使用技術
 
-- HTML
-- CSS
-- JavaScript
+- HTML5
+- CSS3（Flexbox / レスポンシブ対応）
+- Git / GitHub
 
-## 内容
+---
 
-- Topページ
-- Aboutページ
-- Blogページ
-- Contactページ
+## 実装内容
 
-- https://satoru-tanaka-1977.github.io/portfolio-original-site/
+- 4ページ構成（index / about / blog / contact）
+- Flexboxによるヘッダー・heroセクションのレイアウト
+- ブログカード型UIの実装（box-shadow / border-radius / hover）
+- お問い合わせフォームの実装
+- レスポンシブ対応（max-width: 768px）
+- wrapper / wrapper-minによるコンテンツ幅の管理
+- skill-listのタグ型デザイン
+
+---
+
+## 学んだこと
+
+- 模写ではなく自分でレイアウトを設計する難しさを体感した
+- 中央寄せの考え方（margin: 0 auto / wrapper管理）を実践で理解した
+- シンプルなデザインでも余白・構造を意識すれば見やすいサイトが作れることを学んだ
+
+---
+
+## 感想
+
+模写ではなく1からデザインと配置を考える工程は初めての経験で、これでいいのかと不安になることも多かった。背伸びせず、今できる技術でシンプルに仕上げることを意識して制作した。AIと確認しながら進めることで、詰まった箇所を都度解決できた。
+
+---
+
+## 公開URL
+
+👉 https://satoru-tanaka-1977.github.io/portfolio-original-site/
