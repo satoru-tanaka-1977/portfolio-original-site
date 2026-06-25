@@ -222,6 +222,52 @@ button:hover {
   text-align: center;
 }
 
+/* 記事ページ */
+
+.article-header {
+    padding: 60px 0 30px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.article-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.article-date {
+    font-size: 0.875rem;
+    color: #999;
+}
+
+.article-content {
+    max-width: 720px;
+    padding-bottom: 80px;
+}
+
+.article-content h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 40px 0 15px;
+    padding-left: 12px;
+    border-left: 3px solid #6d238d;
+}
+
+.article-image {
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+.article-content p {
+    margin-bottom: 20px;
+    line-height: 2;
+}
+
+
 /* レスポンシブ */
 
 @media screen and (max-width: 768px) {
