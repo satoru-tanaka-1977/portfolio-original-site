@@ -59,6 +59,10 @@ h2 {
   gap: 20px;
 }
 
+.nav-list a:hover {
+  opacity: 0.7;
+}
+
 /* ヒーロー */
 
 .hero {
@@ -117,6 +121,26 @@ h2 {
 .blog-card p {
   font-size: 0.875rem;
   color: #666;
+}
+
+.back-to-list {
+  text-align: center;
+  margin: 40px auto;
+
+}
+.back-to-list a {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #333;
+  color: #fff; 
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: opacity 0.3s ease; 
+}
+
+.back-to-list a:hover {
+  opacity: 0.7;
 }
 
 /* アバウト */
